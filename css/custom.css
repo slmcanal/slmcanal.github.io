@@ -1,0 +1,114 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+	font-family: 'Rochester', cursive;
+	font-size: 25px;
+}
+
+ul.nav {
+	font-family: 'Rochester', cursive, helvetica;
+	font-size: 25px
+	;
+}
+.jumbotron {
+	padding:10px 0 5px 0;
+	color: black;
+	text-align: center;
+	font-family: cursive, helvetica, serif;
+	background-image: url('../images/storewindow.jpg');	
+	margin-bottom: -2px;
+}
+
+
+
+
+.jumbotron h1 {
+	font-family: 'Rochester', cursive, helvetica;
+	margin-top: 0px;
+	font-size: 63px;
+}
+.info {
+	text-align: center;
+	font-family: 'Rochester', cursive, helvetica;
+	margin-top:0;
+	
+}
+.info p, h4, h3, h2 {
+	font-family: 'Averia Libre', cursive;
+
+}
+
+.info h4 {
+	font-size: 22px;
+}
+.info p {
+	font-size: 18px;
+}
+
+.col-md-4 img {
+	border: 0;
+	margin-bottom:10px;
+	padding-bottom: 5px;
+
+}
+.image-responsive {
+	max-width:100%;
+	height: auto;
+	display: block;
+}
+.info hr {
+	border-top: 1px solid #3E1395;
+	width: 150px;
+	margin-top:15px;
+}
+
+footer {
+	background-image: url('../images/instoreotherside.jpg');
+	padding-top: 150px;
+	padding-bottom: 30;
+}
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 991px) { 
+	.jumbotron h1 {
+		font-size: 47px;
+	}
+	.info h3 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+	.info p {
+		padding-bottom: 10px;
+	}
+ }
+
+ /* Smaller devices (phone) */
+@media (max-width: 767px) { 
+	.jumbotron h1 {
+		font-size: 38px;
+
+	}
+	.jumbotron h2 {
+		font-size: 24px;
+	}
+
+	.info p {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	.info h3 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+ }
